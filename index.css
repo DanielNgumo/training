@@ -1,39 +1,85 @@
+*{
+  text-decoration: none;
+}
+.Navbar{
+  background-color: white;
+  font-family: ProximaNova,system-ui,-apple-system,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+.Navdiv{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo a{
+  font-size: 30px;
+  color: black;
+  float: left;
+  align-self: center;
+  margin-left: 100px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  position: static;
+  border-radius: 6px;
+
+}
+.li a{
+  color: black;
+  font-size: 18px;
+  margin-right: 25px;
+}
+.kok{
+  background-color: white;
+  margin-left: 800px;
+  border-radius: 6px;
+  padding: 10px;
+  color: blue;
+  border-color: blue;
+}
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  text-align: center;
+  margin-left: 10px;
+  display: inline;
+}
+ul li a{
+  color: black;
+  margin-bottom: 900px;
+}
+.Navbar a:hover{
+  border-color: red;
+  color: blue;
+}
+
+.ribbon{
+  display: flex;
+}
+
+.size{
+  border: solid blue 2px;
+  height: 30px; width: 50px;
+  font-size: xx-small;
+  display: flex;
   
-  
-  }
-  li{
-    float: left;
-  }
-  li a {
-    text-decoration: none;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.75;
-    color: #3b4246;
-    border-style: solid;
-    border-width: 1px;
-    border-spacing: 10px;
-    margin: 2px;
-    padding: 3px;
-    font-family: ProximaNova,system-ui,-apple-system,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    border-radius: 8%;
-  }
-  li a:hover{
-    background-color: blue;
-  }
-  .container{
-    margin-left: 1000px;
-  
-  }
-  .kok{
-    color: blue;
-    padding: 7px;
-    border-color: blue;
-    border-radius: 8%;
-  }
+}
+
+.padding{
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.titlePadding{
+  padding-top: 30px;
+}
+
+.categories{
+  display: flex;
+}
